@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+    font-family: 'Overpass',sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    color: #f0f8ff;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.maincontainer{
+    width: 375px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contents{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color:  hsl(213, 19%, 18%);
+    margin-bottom: 20px;
+}
+
+.starimg{
+    padding: 0.8rem;
+    background-color: hsl(213, 20%, 25%);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.bigtxt{
+    font-size: 25px;
+    font-size: 700;
+}
+
+.smalltxt{
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+.ratings{
+    display: inline-flex;
+    gap: 23px;
+    padding: 10px 0px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+.btn{
+    border-radius: 50%;
+    background-color:  hsl(213, 20%, 25%);
+    padding: 20px;
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    color: #f0f8ff;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: hsl(210, 25%, 43%);
+    color:hsl(0, 0%, 100%) ;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.active{
+    background-color:  hsl(25, 97%, 53%);
+}
+
+.submitdiv{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{
+    color: hsl(25, 97%, 53%);
+}
+
+#submit-btn{
+    padding: 15px 140px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: aliceblue;
+    text-decoration: none
+}
+
+#submit-btn:hover{
+    background-color:  hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.image{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+
+.selectedrating{
+    text-align: center;
+    border-radius: 20px;
+    background: hsl(213, 20%, 25%);
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: hsl(25, 97%, 53%);
+}
+
+.thankyou{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.boldtxt{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.sm{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <!-- Rating state start -->
+  <main class="maincontainer rating-menu">
+    <div class="contents">
+      <img class="starimg" src="images/icon-star.svg" alt="">
+      <p class="bigtxt">How did we do?</p>
+      <p class="smalltxt">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+        
+        <!--ratings button-->
+        <ul class="ratings">
+          <li><button class="btn smalltxt" type="button" value="1" name="button">1</button></li>
+          <li><button class="btn smalltxt" type="button" value="2" name="button">2</button></li>
+          <li><button class="btn smalltxt" type="button" value="3" name="button">3</button></li>
+          <li><button class="btn smalltxt" type="button" value="4" name="button">4</button></li>
+          <li><button class="btn smalltxt" type="button" value="5" name="button">5</button></li>
+        </ul>
+
+        <!--submit button-->
+        <div class="submitdiv"><button type="button" id="submit-btn">SUBMIT</button></div>
+        
+    </div>
+
+
+    
+   
+
+
+
+    
+  </main>
+
+  <!-- Thank you state start -->
+  <main id="rate-again" class="maincontainer success-container hidden">
+    <div class="contents ">
+      <img class="image" src="images/illustration-thank-you.svg" alt="">
+      <p class="selectedrating">You selected<!-- Add rating here --> <span id="rating-number">0</span> out of 5</p>
+  
+  
+      <div class="thankyou boldtxt">
+        <p>Thank you!</p>
+      </div>
+  
+      <div class="appreciationtxt">
+        <p class="smalltxt sm">We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!</p>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </main>
+  
+  <!-- Thank you state end -->
+  
+
+  
+  
+
+  
+  
+
+  <!-- Rating state end -->
+
+  
+
+  
+  <div class="attribution">
+    Challenge by <a rel="noopener" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">olalekan</a>.
+  </div>
+
+  <script src="rating.js"></script>
+</body>
+</html>
