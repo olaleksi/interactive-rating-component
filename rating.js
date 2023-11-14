@@ -16,13 +16,14 @@ rateAgain.addEventListener("click", () => {
 }); 
 
 ratings.forEach((rating) => {
-    rating.addEventListener("click", () => {
-      ratingNumber.innerHTML = rating.innerHTML;
-    });
-  });
 
-// Get all the buttons into a node list
-//let buttons = document.querySelectorAll(".btn");
+  rating.addEventListener("click", () => {
+    ratingNumber.innerHTML = rating.innerHTML;
+  });
+});
+
+
+
 
 // Set an event handler on the document so that when
 // any element is clicked, the event will bubble up to it
